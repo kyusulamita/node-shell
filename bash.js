@@ -1,5 +1,5 @@
 var commands = require('./commands');
-process.stdout.write("_prompt > ");
+process.stdout.write("Best_team_prompt > ");
 process.stdin.on('data', function(data){
 	var cmd = data.toString().trim().split(' ');
 	var param = null;
